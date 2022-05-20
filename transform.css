@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: red;
+    color: wheat;
+    margin-bottom: 5px;
+}
+
+div {
+    background-color: aqua;
+    width: 100%;
+}
+
+.yazı {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.yazı1 {
+    background-color: tomato;
+    width: 150px;
+    transform: rotateX(55deg);
+}
+
+.yazı2 {
+    background-color: pink;
+    width: 150px;
+    transform: rotateY(70deg);
+}
+
+.yazı3 {
+    background-color: yellow;
+    width: 100px;
+    transform: rotate(-45deg);
+}
+
+.yazı4 {
+    background-color: rgb(55, 25, 124);
+    width: 150px;
+    transform: scale(1) scale(1);
+}
+
+.yazı5 {
+    background-color: rgb(175, 18, 96);
+    width: 150px;
+    transform: rotate();
+}
+
+.yazı5:hover {
+    transform: scale(2);
+}
+
+.yazı6 {
+    background-color: peru;
+    width: 150px;
+}
+
+.yazı6:hover {
+    transform: translate(50px);
+}
+
+.yazı7 {
+    background-color: peru;
+    width: 150px;
+}
+
+.yazı7:hover {
+    transform: translate(0, -50px);
+    transition: transform 2s;
+}
+
+.yazı8 {
+    background-color: peru;
+    width: 180px;
+    transition: transform 2s;
+}
+
+.yazı8:hover {
+    transform: translate(50px, -50px);
+}

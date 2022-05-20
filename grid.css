@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 50vw 150px;
+    grid-template-rows: 100px 500px 20vh 3rem;
+    /*! gridi sayfada yatay hizalamak için  */
+    justify-content: center;
+    /** flex-end,flex-start,center,space-between,space-evenly  */
+    /*! grid rowları  hizalamak için  */
+    /* ? align-items: flex-start;*/
+    text-align: center;
+}
+
+.content {
+    border: 1px solid red;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.content1 {
+    background-image: url(./RESİMLER/1.jpg);
+}
+
+.content4 {
+    /** taştığı zaman owerflow:auto ile ortalar */
+    overflow: auto;
+}
+
+.content6 {
+    background-color: pink;
+}

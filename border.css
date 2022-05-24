@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bir {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+    border-top: 10px solid red;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 10px solid blue;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-right: 10px solid pink;
+    border-right-top-radius: 25px;
+    border-left: 10px solid purple;
+}

@@ -1,5 +1,15 @@
+.kutu {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+    clip-path: inset (0px, 50px, 0px, 1px);
+    margin-top: 25px;
+}
+
 h1 {
     text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
 }
 
 h2 {
@@ -8,8 +18,40 @@ h2 {
 
 h3 {
     text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     -webkit-text-stroke: 1px red;
+    column-count: 3;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+td,
+th {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    color: aqua;
+    background-color: grey;
+}
+
+tr:nth-child(even) {
+    color: pink;
+    background-color: purple;
+}
+
+img {
+    position: absolute;
+    border: 1px solid red;
+    width: 400px;
+    margin-top: 2rem;
+    clip: rect(0px 5px);
 }

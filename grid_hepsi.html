@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.ana{
+    display: grid;
+    border: 1px solid red ;
+    padding: 1rem;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 5px;
+}
+.elemanlar{
+    border: 1px solid blue;
+    text-align: center;
+}
+.işlem{
+    grid-row: span 4;
+}
+.iki{
+    grid-column: span 3;
+}
+.area{
+    border: 1px solid red ;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 5px;
+    padding: 1rem;
+    grid-area: "isim  isim isim isim" ;
+}
+.eleman{
+    border: 3px solid blueviolet ;
+    
+}
+.işlem1{
+    grid-area: isim;
+    background-color: red;
+}
+    </style>
+</head>
+<body>
+<div class="ana" >
+    <div class="elemanlar işlem  " >1</div>
+    <div class="elemanlar iki " >2</div>
+    <div class="elemanlar  " >3</div>
+    <div class="elemanlar  " >4</div>
+    <div class="elemanlar  " >5</div>
+    <div class="elemanlar  " >6</div>
+    <div class="elemanlar  " >7</div>
+    <div class="elemanlar  " >8</div>
+    <div class="elemanlar  " >9</div>
+    <div class="elemanlar  " >10</div>
+    <div class="elemanlar  " >11</div>
+    <div class="elemanlar  " >12</div>
+    <div class="elemanlar  " >13</div>
+    <div class="elemanlar  " >14</div>
+    <div class="elemanlar  " >15</div>
+    <div class="elemanlar  " >16</div>
+    <div class="elemanlar  " >17</div>
+    <div class="elemanlar  " >18</div>
+    <div class="elemanlar  " >19</div>
+    <div class="elemanlar  " >20</div>
+</div><br><br><br>
+<h1>grid area özellikleri</h1>
+<div class="area" >
+    <div class="eleman  " >1</div>
+    <div class="eleman  " >2</div>
+    <div class="eleman  " >3</div>
+    <div class="eleman  " >4</div>
+    <div class="eleman  işlem1" >5</div>
+    <div class="eleman  " >6</div>
+    <div class="eleman  " >7</div>
+    <div class="eleman  " >8</div>
+    <div class="eleman  " >9</div>
+    <div class="eleman  " >10</div>
+    <div class="eleman  " >11</div>
+    <div class="eleman  " >12</div>
+    <div class="eleman  " >13</div>
+    <div class="eleman  " >14</div>
+    <div class="eleman  " >15</div>
+    <div class="eleman  " >16</div>
+    <div class="eleman  " >17</div>
+    <div class="eleman  " >18</div>
+    <div class="eleman  " >19</div>
+    <div class="eleman  " >20</div>
+</div>
+
+
+
+
+
+    
+</body>
+</html>
